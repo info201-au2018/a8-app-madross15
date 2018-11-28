@@ -1,0 +1,12 @@
+name: ufoapp
+title: ufoapp
+username:
+account: madross
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 595195
+bundleId: 1727178
+url: https://madross.shinyapps.io/ufoapp/
+when: 1543448588.14404
+asMultiple: FALSE
+asStatic: FALSE
