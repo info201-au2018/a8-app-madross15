@@ -1,6 +1,7 @@
 # Load Libraries
 library(shiny)
 library(leaflet)
+library(dplyr)
 
 # Group the shap column
 shapedata <- data %>% group_by(Shape) %>% summarise()
