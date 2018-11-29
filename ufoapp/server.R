@@ -14,5 +14,8 @@ shinyServer(function(input, output) {
         addMarkers(data = select_shape, lng = ~lng, lat = ~lat, popup = ~Summary)
 
     })
+    output$msg <- renderText({
+      paste0("This map shows ", input$country," and the amount of ", input$shape, "-shaped UFO Sightings in 2016")
+    })
 
 })

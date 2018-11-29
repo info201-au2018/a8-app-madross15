@@ -5,8 +5,8 @@ account: madross
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 595195
-bundleId: 1727178
+bundleId: 1727633
 url: https://madross.shinyapps.io/ufoapp/
-when: 1543448588.14404
+when: 1543463821.27297
 asMultiple: FALSE
 asStatic: FALSE

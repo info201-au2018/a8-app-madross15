@@ -14,7 +14,8 @@ shinyUI(fluidPage(
       radioButtons("country", "Select Country",choices = list("USA", "CANADA"),  selected=1)
     ),
     mainPanel(
-      leafletOutput("mymap", height = 1000)
+      leafletOutput("mymap", height = 500),
+      textOutput("msg")
     )
   )
   )
